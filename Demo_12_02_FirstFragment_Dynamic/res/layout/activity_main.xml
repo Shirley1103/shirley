@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- 添加一个容器，用于存放fragment对象 -->
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        
+    </LinearLayout>
+    
+    <Button 
+        android:id="@+id/btn"
+        android:onClick="click"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="切换Fragment"/>
+
+</LinearLayout>
